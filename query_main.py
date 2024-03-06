@@ -26,10 +26,10 @@ def getInfo(word):
 if __name__ == '__main__':
     with open('doc_info.pickle', 'rb') as f:
         docId_docLength = pickle.load(f)
-    print(docId_docLength)
+    #print(docId_docLength)
     
     
-    queryWords = ["Mondego"] #['Informatics','Mondego','Irvine']
+    queryWords = ["Mondego mondego 123 and science"] #['Informatics','Mondego','Irvine']
     for word in queryWords:
         results = getInfo(word.lower())
         num_urls = results[0]
@@ -38,5 +38,4 @@ if __name__ == '__main__':
         
         #print(f"Query: {word} | URLS: {num_urls}\n{list_of_urls[:20]}")
         
-        
-#python query_main.py
+    #python query_main.py

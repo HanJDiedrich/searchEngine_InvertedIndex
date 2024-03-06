@@ -57,8 +57,6 @@ def findTF_IDF():
             score = tf_idf(tf,idf)
             #Record
             value[1][doc_ID] = score
-        
-    
     
     #Store updated Inverted Index
     with open('data.pickle', 'wb') as f:
