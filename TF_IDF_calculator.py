@@ -55,8 +55,8 @@ def findTF_IDF():
             idf = inverseDocumentFrequency(docTotal, docsContainingTerm)
             #Calculate TF-IDF
             score = tf_idf(tf,idf)
-            #Record
-            value[1][doc_ID] = score
+            #Record TF-IDF score rounded to 5 decimal places
+            value[1][doc_ID] = round(score,5)
     
     #Store updated Inverted Index
     with open('data.pickle', 'wb') as f:
@@ -87,5 +87,5 @@ if __name__ == '__main__':
     #size in KB
     size = getSizeKB()
     print(f"INDEX SIZE: {(size):.0f} KB")
-    
+    print(existing_data)
     #python TF_IDF_calculator.py
