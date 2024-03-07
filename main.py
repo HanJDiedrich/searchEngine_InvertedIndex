@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import pickle
 
 from index_constructor import *
-from basic_query import *
+
 
 def run(base):
     total_num_documents = getSubDirectories(base)
