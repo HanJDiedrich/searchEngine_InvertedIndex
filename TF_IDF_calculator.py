@@ -1,19 +1,5 @@
-
 import math
-import json
-import sys
 import os
-import nltk
-from nltk.tokenize import word_tokenize
-# Download NLTK resources (needed for lemmatization)
-nltk.download('punkt')
-nltk.download('wordnet')
-from nltk.stem import WordNetLemmatizer
-nltk.download('stopwords')
-from nltk.corpus import stopwords
-
-from bs4 import BeautifulSoup
-
 import pickle
 
 #Helpers
@@ -87,5 +73,4 @@ if __name__ == '__main__':
     #size in KB
     size = getSizeKB()
     print(f"INDEX SIZE: {(size):.0f} KB")
-    print(existing_data)
     #python TF_IDF_calculator.py

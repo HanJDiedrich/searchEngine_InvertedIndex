@@ -101,15 +101,37 @@ def getInfo(queryTerms):
     return number_urls, list_urls
     
 if __name__ == '__main__':
-    with open('doc_info.pickle', 'rb') as f:
-        docId_docLength = pickle.load(f)
-    #print(docId_docLength)
-    
-    #Inverted Index
+    #Load Inverted Index
     global invertedIndex
     with open('data.pickle', 'rb') as f:
         invertedIndex = pickle.load(f)
+    
+    #Load document lengths dict
+    with open('doc_info.pickle', 'rb') as f:
+        docId_docLength = pickle.load(f)
+    
+    #INDEX STATISTICS
+    print(f"TOTAL DOCUMENTS: {len(docId_docLength)}")
+    print(f"UNIQUE WORDS: {len(invertedIndex)}")
+    print(f"INDEX SIZE: {(os.path.getsize('data.pickle') / 1024):.0f} KB")
+    
+    print("Welcome to our search engine")
+    
+    
+    while(True):
+        print("Enter your query or enter 'exit' to quit")
+        queryInput = input("ENTER: ")
+        if (queryInput == ""):
+            print("Please enter a valid query")
+            continue
+        if (queryInput == "exit"):
+            print("EXITING...")
+            break
+        document_dictionary, valid_words = get_documents(queryInput)
         
+        if len(valid_words) == 0:
+            print("NO RESULTS FOUND FOR THIS QUERY")
+    
     queryWords = ["artificial intelligence"] #['Informatics','Mondego','Irvine']
     for word in queryWords:
         results = getInfo(word.lower())
