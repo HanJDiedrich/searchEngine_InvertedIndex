@@ -5,9 +5,7 @@ Builds the inverted index
 2. Apply lemmatization on tokens
 3. Store TF-IDF on every term/document
 '''
-import math
-import json
-import sys
+
 import os
 import nltk
 from nltk.tokenize import word_tokenize
@@ -190,21 +188,3 @@ def lemmatizeList(validTokens):
     lemmatized_tokens = [lemmatizer.lemmatize(token) 
                          for token in validTokens]
     return lemmatized_tokens
-
-            
-'''
-DATABASE structure
-
-documentID = “folder_number/file_number” 
-
-Folder: inverted_index
-    word1.txt
-        {documentID1 : [ [indicies of occurence], wordFrequency, Tf-idf score ], ... }
-    word2.txt
-
-    ...
-
-    wordX.txt
-
-
-'''

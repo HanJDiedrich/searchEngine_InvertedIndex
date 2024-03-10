@@ -33,8 +33,11 @@ Load index before initiating all searches
 2+ word
 
 Ranked Retrival:
+Implement pagerank
+
 For relevant Document Ids:
     Rank intersection between results of having n common, n-1, n-2, and so on
+    Rank based on pagerank
     Rank based on TF-IDF score
     Rank based on word index
 
@@ -43,6 +46,8 @@ Return total link count that contains all terms
 Return total link count that contains n-1, n-2 terms
 Return total link count
 
+2-gram index
+Re run and modify to create 2 gram index
 
 
 

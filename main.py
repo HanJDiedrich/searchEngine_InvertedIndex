@@ -1,16 +1,7 @@
-import math
-import json
 import sys
 import os
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-from bs4 import BeautifulSoup
-
 import pickle
-
 from index_constructor import *
-
 
 def run(base):
     total_num_documents = getSubDirectories(base)
