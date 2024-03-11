@@ -1,0 +1,59 @@
+TOTAL DOCUMENTS: 37497
+UNIQUE WORDS: 158760
+INDEX SIZE: 137067 KB
+
+Informatics - Results: 6128
+www.ics.uci.edu/~andre/teaching.html
+www.ics.uci.edu/~michele/Teaching/Teaching.html
+www.ics.uci.edu/~wmt/socialCodeGroup/people.html
+fano.ics.uci.edu/cites/Location/Proc-10th-Genome-Informatics-Worksh.html
+fano.ics.uci.edu/cites/Organization/Masaryk-Univ-Faculty-of-Informatics.html
+fano.ics.uci.edu/cites/Organization/Universal-Academy-Press.html
+www.ics.uci.edu/faculty/index.php?department=Informatics
+fano.ics.uci.edu/cites/Author/T-Takagi.html
+mhcid.ics.uci.edu?p=22
+www.ics.uci.edu/~taylor/Classes.htm
+fano.ics.uci.edu/cites/Organization/Univ-of-Athens-Dept-of-Informatics-and-Telecommunications.html
+fano.ics.uci.edu/cites/Organization/Warsaw-Univ-Inst-of-Informatics.html
+fano.ics.uci.edu/cites/Location/Proc-1st-Latin-American-Symp-Theoretical-Informatics-(LATIN-1992).html
+www.ics.uci.edu/~dock/manuals/oechem/cplusprog/node4.html
+fano.ics.uci.edu/cites/Organization/Aristotle-Univ-of-Thessaloniki-Dept-of-Informatics.html
+www.ics.uci.edu/~guix
+fano.ics.uci.edu/cites/Author/Satoru-Miyano.html
+www.ics.uci.edu/~michele
+fano.ics.uci.edu/cites/Location/Proc-6th-Int-Conf-Systemics-Cybernetics-and-Informatics-(SCI-2002).html
+www.ics.uci.edu/~thornton/inf122/ProjectGuide
+
+Mondego - Results: 10
+sourcerer.ics.uci.edu
+mondego.ics.uci.edu
+www.ics.uci.edu/~lopes
+www.ics.uci.edu/~lopes/datasets
+www.ics.uci.edu/~lopes/datasets/Koders-log-2007.html
+www.ics.uci.edu/~lopes/datasets/sourcerer-maven-aug12.html
+www.ics.uci.edu/~lopes/datasets/SDS_source-repo-18k.html
+www.ics.uci.edu/~aftabh
+www.ics.uci.edu/community/news/notes/notes_2014.php
+www.ics.uci.edu/community/news/notes/notes_2013.php
+
+Irvine - Results: 12152
+sprout.ics.uci.edu/past_projects/sucses
+www.ics.uci.edu/~copper
+www.ics.uci.edu/~anamakis
+www.ics.uci.edu/~nalini/top.html
+vision.ics.uci.edu/people/36.html
+vision.ics.uci.edu/events.html
+vision.ics.uci.edu/people/14.html
+vision.ics.uci.edu/people/17.html
+vision.ics.uci.edu/people/16.html
+vision.ics.uci.edu/people/22.html
+vision.ics.uci.edu/people/5.html
+vision.ics.uci.edu/people/21.html
+vision.ics.uci.edu/people/6.html
+vision.ics.uci.edu/people/37.html
+vision.ics.uci.edu/people/2.html
+www.ics.uci.edu/supportICS
+vision.ics.uci.edu/people/15.html
+www.ics.uci.edu/~eli/contactInfo.html
+dynamo.ics.uci.edu/people.html
+vision.ics.uci.edu/courses.html
