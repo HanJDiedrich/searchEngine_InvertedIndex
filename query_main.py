@@ -7,7 +7,6 @@ import numpy
 from index_constructor import *
 import tkinter as tk
 from tkinter import scrolledtext
-from gui import SearchEngineApp
 
 
 class sortedRank:
